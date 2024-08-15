@@ -10,3 +10,6 @@ def calcular_area_cuadrado(lado):
 
 def area_circulo(radio):
     return 3.1416 * (radio ** 2)
+
+def area_rombio(Diag_mayor, Diag_menor):
+    return (Diag_mayor*Diag_menor/2)
